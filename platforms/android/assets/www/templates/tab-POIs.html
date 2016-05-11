@@ -1,0 +1,12 @@
+<ion-view view-title="{{catName}}">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-icon-right" ng-repeat="POI in POIs.response.data"  href="#/tab/categories/catId/catName/{{POI.id}}/{{POI.label}}">
+        <h2>{{POI.label}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ceccio/MeLOD/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/18.48.477.13/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="707a1042fcbc75024eccf54ad692b125ad8f1128">
+        <dex dex="/Users/ceccio/MeLOD/platforms/android/build/intermediates/pre-dexed/debug/org.xwalk-xwalk_core_library_beta-18.48.477.13_817fd41d74353a794c7dbc7fcd8c716ea849556c.jar" />
+    </item>
+    <item
+        jar="/Users/ceccio/MeLOD/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/ceccio/MeLOD/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_4e644e2a69aa707205dd7b590cdb490cf6b6d7c6.jar" />
+    </item>
+    <item
+        jar="/Users/ceccio/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/ceccio/MeLOD/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_364c1fe80079839df2deab4d69b3429edea1ce31.jar" />
+    </item>
+    <item
+        jar="/Users/ceccio/MeLOD/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/ceccio/MeLOD/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_3ac971a426ea1475180b443d0ec154ffeec33e83.jar" />
+    </item>
+    <item
+        jar="/Users/ceccio/MeLOD/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5e01978606f393cbfcec1a664ccd051b56578f8">
+        <dex dex="/Users/ceccio/MeLOD/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_98a410c19f7ad706a2d5726e98fdd57a409709be.jar" />
+    </item>
+
+</items>

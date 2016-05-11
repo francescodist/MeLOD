@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ceccio/MeLOD/platforms/android/build/intermediates/res/merged/debug/drawable-v21/button_compat.xml",
+        "source": "/Users/ceccio/MeLOD/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/18.48.477.13/res/drawable-v21/button_compat.xml"
+    },
+    {
+        "merged": "/Users/ceccio/MeLOD/platforms/android/build/intermediates/res/merged/debug/drawable-v21/button_borderless_compat.xml",
+        "source": "/Users/ceccio/MeLOD/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library_beta/18.48.477.13/res/drawable-v21/button_borderless_compat.xml"
+    }
+]

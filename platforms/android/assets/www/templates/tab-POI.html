@@ -1,0 +1,11 @@
+<ion-view title="{{POIName}}">
+  <ion-content class="padding" style="text-align: center" overflow-scroll="true">
+    <img style="height: 55%; width: auto; max-width: 90vw; margin-top: 2vh" ng-src="{{POI.response.data.image || '//:0'}}"/>
+    <div style="height: 5%; width: 90vw;"></div>
+    <div style="height: 35%; overflow: scroll;">
+      <p style="padding-left: 1.5vh; padding-right: 1.5vh; text-align: justify">
+        {{POI.response.data.comment}}
+      </p>
+    </div>
+  </ion-content>
+</ion-view>
