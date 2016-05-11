@@ -1,5 +1,26 @@
-<ion-view view-title="Impostazioni">
+<ion-view view-title="Settings">
   <ion-content>
-    prova
+    <div class="list">
+      <!-- User Settings -->
+      <div class="item item-divider">
+        User
+      </div>
+      <a class="item item-icon-right" ng-click="language()" href>
+        Language
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </a>
+      <a class="item item-icon-right" ng-click="contype()" href>
+        Content Type
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </a>
+      <!-- Information Settings -->
+      <div class="item item-divider">
+        Information
+      </div>
+      <a class="item item-icon-right" ng-click="favcat()" href>
+        Favorite Categories
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </a>
+    </div>
   </ion-content>
 </ion-view>

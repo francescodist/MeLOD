@@ -6,3 +6,44 @@
   margin-bottom: 20vh;
   color: darkgrey;
 }
+
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+
+
+.prova {
+  text-align: left;
+  white-space: nowrap !important;
+    overflow:hidden !important;
+
+}
+
+.offset-text {
+  margin: 0 10px;
+  white-space: nowrap !important;
+    overflow:hidden !important;
+
+  position: relative;
+  top: 5px;
+  z-index: 4;
+
+}
+
+.pop-icon {
+  position: relative;
+  z-index: 5;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.popup-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.enable-scrl {
+  min-height: 101vh !important;
+}

@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'ngCordova'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -66,31 +66,83 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
-  .state('tab.categories', {
-      url: '/categories',
-      views: {
-        'tab-categories': {
-          templateUrl: 'templates/tab-categories.html',
-          controller: 'CategoriesCtrl'
-        }
-      }
-    })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
-      views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
-        }
-      }
-    })
-
-  .state('tab.account', {
-    url: '/account',
+  .state('tab.language', {
+    url: '/home/settings/language',
     views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
-        controller: 'AccountCtrl'
+      'tab-home': {
+        templateUrl: 'templates/language.html',
+        controller: 'LanguageCtrl'
+      }
+    }
+  })
+
+  .state('tab.favcat', {
+    url: '/home/settings/favcat',
+    views: {
+      'tab-home': {
+        templateUrl: 'templates/fav-cat.html',
+        controller: 'FavCatCtrl'
+      }
+    }
+  })
+
+  .state('tab.contype', {
+    url: '/home/settings/contype',
+    views: {
+      'tab-home': {
+        templateUrl: 'templates/content-type.html',
+        controller: 'ConTypeCtrl'
+      }
+    }
+  })
+
+  .state('tab.categories', {
+    url: '/categories',
+    views: {
+      'tab-categories': {
+        templateUrl: 'templates/tab-categories.html',
+        controller: 'CategoriesCtrl'
+      }
+    }
+  })
+  .state('tab.POIs', {
+    url: '/categories/:catId/:catName',
+    views: {
+      'tab-categories': {
+        templateUrl: 'templates/tab-POIs.html',
+        controller: 'POIsCtrl'
+      }
+    }
+  })
+
+  .state('tab.POI', {
+    cache: false,
+    url: '/categories/catId/catName/:POIId/:POIName',
+    views: {
+      'tab-categories': {
+        templateUrl: 'templates/tab-POI.html',
+        controller: 'POICtrl'
+      }
+    }
+  })
+
+  .state('tab.map', {
+    url: '/map',
+    views: {
+      'tab-map': {
+        templateUrl: 'templates/tab-map.html',
+        controller: 'MapCtrl'
+      }
+    }
+  })
+
+  .state('tab.mapPOI', {
+    cache: false,
+    url: '/map/:POIId/:POIName',
+    views: {
+      'tab-map': {
+        templateUrl: 'templates/tab-POI.html',
+        controller: 'POICtrl'
       }
     }
   });
