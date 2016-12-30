@@ -1,21 +1,22 @@
 <ion-view title="Language">
   <ion-content>
     <ion-list>
-    <ion-radio ng-model="lang" ng-value="'de'">
+    <ion-radio ng-model="data.lang" ng-value="'de'">
       Deutsche
     </ion-radio>
-    <ion-radio ng-model="lang" ng-value="'en'" checked>
+    <ion-radio ng-model="data.lang" ng-value="'en'" checked>
       English
     </ion-radio>
-    <ion-radio ng-model="lang" ng-value="'es'">
+    <ion-radio ng-model="data.lang" ng-value="'es'">
       Español
     </ion-radio>
-    <ion-radio ng-model="lang" ng-value="'fr'">
+    <ion-radio ng-model="data.lang" ng-value="'fr'">
       François
     </ion-radio>
-    <ion-radio ng-model="lang" ng-value="'it'">
+    <ion-radio ng-model="data.lang" ng-value="'it'">
       Italiano
     </ion-radio>
   </ion-list>
+  <button ng-click="prova()">Prova {{data.lang}}</button>
   </ion-content>
 </ion-view>

@@ -24,7 +24,11 @@ angular.module('starter.controllers', [])
   }
 })
 .controller('LanguageCtrl', function($scope) {
-  $scope.lang="en"
+  $scope.data = {};
+  $scope.prova = function(){
+
+    console.log($scope.data.lang);
+  }
 })
 .controller('ConTypeCtrl', function($scope) {
 
